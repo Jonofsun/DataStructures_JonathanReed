@@ -14,8 +14,8 @@ namespace DataStructures_JonathanReed
          */
         static void Main(string[] args)
         {
-            var singlyLinkedList = new LinkedList<int>();
-            var doublyLinkedList = new DoublyLinkedList<int>();
+            var singlyLinkedList = new LinkedList<int>(); // Currently Testing
+            var doublyLinkedList = new DoublyLinkedList<int>(); // Not functional
             var queue = new Queue<int>();
             var stack = new Stack<int>();
 
