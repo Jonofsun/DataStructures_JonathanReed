@@ -14,12 +14,13 @@ namespace DataStructures_JonathanReed
          */
         static void Main(string[] args)
         {
+
             var singlyLinkedList = new LinkedList<int>(); // Currently Testing
             var doublyLinkedList = new DoublyLinkedList<int>(); // Not functional
             var queue = new Queue<int>();
             var stack = new Stack<int>();
 
-            string dataStructure = "SinglyLinkedList"; // Change this to test other structures
+            string dataStructure = "Stack"; // Change this to test other structures
 
             switch (dataStructure)
             {
@@ -41,6 +42,7 @@ namespace DataStructures_JonathanReed
                 case "Stack":
                     stack.Push(1);
                     stack.Push(2);
+
                     stack.PrintAll();
                     break;
                 default:
@@ -48,6 +50,8 @@ namespace DataStructures_JonathanReed
                     break;
             }
 
+
+        
         }
     }
 }

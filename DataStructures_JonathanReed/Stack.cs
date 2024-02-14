@@ -22,6 +22,9 @@ namespace DataStructures_JonathanReed
                 throw new InvalidOperationException("Stack is empty");
             }
             T value = list.First;
+
+            Console.WriteLine(value);
+
             list.RemoveFirst();
             return value;
         }

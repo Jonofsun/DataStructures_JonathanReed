@@ -26,6 +26,7 @@ namespace DataStructures_JonathanReed
         {
             var newNode = new Node(data) { Next = head };
             head = newNode;
+            Count++;
         }
 
         public void AddLast(T data)
